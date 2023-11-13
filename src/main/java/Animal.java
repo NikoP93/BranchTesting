@@ -3,9 +3,11 @@ public abstract class Animal {
     private String name;
 
 
-    public void makeSound(){
+    public abstract void makeSound();
 
-    }
+
+
+    public abstract boolean eat(String foodType);
 
 
 }

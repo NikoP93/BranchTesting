@@ -11,5 +11,13 @@ public void makeSound(){
         return true;
     }
 
+    @Override
+    public void mood(Boolean mood) {
+        if (mood == true){
+            System.out.println("logrer");
+        }
+        else System.out.println("knurrer");
+    }
+
 
 }
